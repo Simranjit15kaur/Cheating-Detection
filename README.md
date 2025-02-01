@@ -75,24 +75,11 @@ Videos are labeled using the format `s_numPerson_scenario.mp4` (e.g., `s_2_3.mp4
 - Albumentations
 - Scikit-learn
 
-### Installation Steps
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/cheating-detection.git
-   cd cheating-detection
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the detection system:
-   ```sh
-   python main.py
    ```
 
 ## Contributors
-- Kriti Singh Behl (102216057)
 - Simranjit Kaur (102216033)
+- - Kriti Singh Behl (102216057)
 
 ## License
 This project is licensed under the MIT License.
