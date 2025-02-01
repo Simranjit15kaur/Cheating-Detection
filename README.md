@@ -79,7 +79,7 @@ Videos are labeled using the format `s_numPerson_scenario.mp4` (e.g., `s_2_3.mp4
 
 ## Contributors
 - Simranjit Kaur (102216033)
-- - Kriti Singh Behl (102216057)
+-  Kriti Singh Behl (102216057)
 
 ## License
 This project is licensed under the MIT License.
