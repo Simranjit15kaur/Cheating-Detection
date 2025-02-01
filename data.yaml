@@ -1,0 +1,6 @@
+path: C:\Users\hp\Downloads\phone_detectiondataset\Car-Person Custom-Object-Detection-v2-Roboflow
+train: C:\Users\hp\Downloads\phone_detectiondataset\Car-Person Custom-Object-Detection-v2-Roboflow\train\images
+val: C:\Users\hp\Downloads\phone_detectiondataset\Car-Person Custom-Object-Detection-v2-Roboflow\valid\images
+
+nc: 1
+names: ['Mobile_phone']
