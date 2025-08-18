@@ -6,7 +6,6 @@ With the rise of online interviews, ensuring the integrity and fairness of the i
 ## Features
 - **Multimodal Data Collection**: Captures video, audio, and interaction data.
 - **Gaze and Device Detection**: Identifies if a candidate is looking away or using a mobile device.
-- **Voice Activity Detection**: Monitors for external audio cues.
 - **Behavioral Anomaly Detection**: Identifies irregular keyboard/mouse activity.
 - **Real-Time Alerts**: Notifies users upon detecting suspicious behavior.
 - **Automated Reporting**: Logs and records detected cheating instances for review.
@@ -27,10 +26,9 @@ Videos are labeled using the format `s_numPerson_scenario.mp4` (e.g., `s_2_3.mp4
 
 ## Methodology
 1. **Video Capture**: A webcam continuously records the candidate.
-2. **Feature Extraction**: YOLOv5s is used to detect faces, eyes, and objects.
+2. **Feature Extraction**: YOLOv8s is used to detect faces, eyes, and objects.
 3. **Behavior Analysis**:
    - CNN for face and gaze tracking
-   - RNN for voice anomaly detection
    - Anomaly detection for keyboard/mouse behavior
 4. **Cheating Detection Module**: Analyzes movements and raises alerts if necessary.
 5. **Real-Time Feedback**: Alerts are sent to candidates upon detecting anomalies.
@@ -70,7 +68,7 @@ Videos are labeled using the format `s_numPerson_scenario.mp4` (e.g., `s_2_3.mp4
 ### Prerequisites
 - Python 3.x
 - OpenCV
-- YOLOv5
+- YOLOv8
 - TensorFlow/PyTorch
 - Albumentations
 - Scikit-learn
